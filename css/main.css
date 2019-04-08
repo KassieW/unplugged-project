@@ -437,7 +437,7 @@ aside {
   }
 
   .faq-content {
-    width: 100%;
+    flex-basis: 40%;
   }
 
   .faq h2 {
@@ -448,7 +448,64 @@ aside {
 
   @media only screen and (min-width: 1200px) {
     /* Desktop styles */
-    
+    .content-wrapper {
+            max-width: 960px;
+       }
+
+        /* Hero */
+       .hero-area h1 {
+           width: 55%;
+       }
+
+       /* Aside */
+       aside .content-wrapper {
+           justify-content: 100%;
+       }
+
+       aside .content-wrapper .form-description,
+       aside .content-wrapper .form {
+           width: 25%;
+       }
+
+       /* Features */
+       .features h2 {
+           width: 75%;
+       }
+
+       .features article {
+           flex-basis: 16%;
+       }
+
+       /* Reviews */
+       .reviews article div {
+           width: 35%;
+       }
+
+   /* ==========================================================================
+      About Page
+      ========================================================================== */
+       .mission h2,
+       .contact-section .content-wrapper h2 {
+           width: 100%
+       }
+
+       .contact-section .content-wrapper h2 {
+           margin-bottom: 32px;
+       }
+
+
+   /* ==========================================================================
+      FAQ Page
+      ========================================================================== */
+       .faq h2 {
+           width: 100%;
+       }
+
+       .faq-content {
+           flex-basis: 34%;
+       }
+
+   }
   }
 
 /* ==========================================================================
