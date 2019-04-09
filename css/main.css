@@ -102,6 +102,56 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #e2e3ed;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.75em;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+}
+
+p {
+  font-size: 1.125em;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+  text-align: center;
+}
+
 .content-wrapper {
   width: 90%;
 }
@@ -454,31 +504,31 @@ aside {
 
         /* Hero */
        .hero-area h1 {
-           width: 55%;
+           width: 60%;
        }
 
        /* Aside */
        aside .content-wrapper {
-           justify-content: 100%;
+           justify-content: space-around;
        }
 
        aside .content-wrapper .form-description,
        aside .content-wrapper .form {
-           width: 25%;
+           width: 30%;
        }
 
        /* Features */
        .features h2 {
-           width: 75%;
+           width: 70%;
        }
 
        .features article {
-           flex-basis: 16%;
+           flex-basis: 33%;
        }
 
        /* Reviews */
        .reviews article div {
-           width: 35%;
+           width: 42%;
        }
 
    /* ==========================================================================
@@ -490,7 +540,7 @@ aside {
        }
 
        .contact-section .content-wrapper h2 {
-           margin-bottom: 32px;
+           margin-bottom: 40px;
        }
 
 
@@ -502,7 +552,7 @@ aside {
        }
 
        .faq-content {
-           flex-basis: 34%;
+           flex-basis: 35%;
        }
 
    }
