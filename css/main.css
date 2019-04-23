@@ -245,6 +245,21 @@ footer p {
 footer .copyright {
   margin: 20px 0;
 }
+
+footer .social-icons p {
+  border-radius: 50%;
+  color: #527158;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
 /* Hero Area */
 .hero-area {
   display: flex;
