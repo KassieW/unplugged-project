@@ -149,7 +149,7 @@ h4 {
 
 p {
   font-size: .875em;
-  line-height: 1.285em;
+  line-height: 1.285;
 }
 
 address {
@@ -250,11 +250,10 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  height: auto;
-  background: url('../img/hero.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(../img/hero.jpg);
   background-color: #333;
+  background-position: center;
+  min-height: 500px;
   background-size: cover;
 }
 
@@ -301,10 +300,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  height: auto;
   background-image: url('../img/backsplash.jpg');
   background-position: center;
-  background-repeat: no-repeat;
   background-color: #333;
   background-size: cover;
 }
@@ -354,7 +351,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: wrap;
+  flex-flow: row wrap;
   background-color: #527158;
 }
 
@@ -643,6 +640,10 @@ input[type=button] {
       width: 40%;
     }
 
+    .map figure {
+      padding-bottom: 45%;
+    }
+
     .contact-section .content-wrapper h2 {
       width: 80%;
     }
@@ -735,6 +736,10 @@ input[type=button] {
        .contact-section .content-wrapper h2 {
            width: 100%;
            font-size: 3em;
+       }
+       
+       .map figure {
+         padding-bottom: 37%;
        }
 
        .contact-section .content-wrapper h2 {
